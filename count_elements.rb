@@ -1,4 +1,3 @@
 def count_elements(array)
-  # code goes here
+  h = Hash.new(0); array.each { |e| h[e] += 1 }; h
 end
- 
